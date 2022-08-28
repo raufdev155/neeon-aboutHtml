@@ -1,4 +1,310 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=Roboto:ital,wght@0,100;0,400;0,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-section {
+  width: 100%;
+  height: 100%;
+}
+.about-section .aboutus {
+  background-color: #F7F7F7;
+  padding: 20px 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-section .about-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.about-section .about-image .abimg1 {
+  position: absolute;
+  width: 400px;
+  top: 70px;
+  left: 250px;
+}
+.about-section .about-image .abimg2 {
+  position: absolute;
+  width: 300px;
+  top: 120px;
+  left: 680px;
+}
+.about-section .about-image .abimg3 {
+  position: absolute;
+  width: 470px;
+  left: 500px;
+  top: 430px;
+  border: 30px solid white;
+  margin: -20px;
+}
+.about-section .about-image .loq1 {
+  position: absolute;
+  top: 560px;
+  left: 360px;
+}
+.about-section .about-image .loq2 {
+  position: absolute;
+  left: 730px;
+  top: 70px;
+}
+
+.sectionTxt {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60%;
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
+}
+.sectionTxt .txtabout {
+  top: 80%;
+}
+.sectionTxt .txtabout .aboutTxt .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.sectionTxt .txtabout .aboutTxt .necnas {
+  margin-bottom: 30px;
+}
+.sectionTxt .txtabout .aboutTxt .btn-read {
+  background-color: rgb(67, 106, 210);
+  border-radius: 5px;
+  border: none;
+  padding: 15px 40px;
+}
+.sectionTxt .txtabout .aboutTxt .btn-read span {
+  color: #F7F7F7;
+}
+.sectionTxt .txtabout .aboutTxt .btn-read ::hover {
+  color: red;
+}
+
+.web {
+  background-color: rgb(33, 24, 24);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 150px;
+}
+.web .wedevtxt {
+  position: absolute;
+  width: 400px;
+  font-size: 20px;
+}
+.web .wedevimg {
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  margin: 15px;
+}
+.web .wedevimg img {
+  width: 450px;
+}
+.web .wedevimg .plyicon a {
+  position: absolute;
+  left: 215px;
+  top: 70px;
+  font-size: 65px;
+}
+.web .skill-group {
+  position: absolute;
+  top: 280px;
+  margin: 0 auto;
+  width: 15%;
+}
+.web .skill-bar {
+  width: 150%;
+  background-color: white;
+}
+.web .skill-value {
+  text-align: right;
+  color: black;
+}
+.web .html {
+  width: 90%;
+  margin: 12px;
+  background-color: #2A63FF;
+}
+.web .html span {
+  color: white;
+}
+.web .js {
+  width: 70%;
+  margin: 12px;
+  background-color: #2A63FF;
+}
+.web .js span {
+  color: white;
+}
+.web .python {
+  width: 55%;
+  margin: 12px;
+  background-color: #2A63FF;
+}
+.web .python span {
+  color: white;
+}
+
+.meetOur {
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  margin-top: 65%;
+  background-image: url(https://radiustheme.com/demo/html/neeon/media/elements/element_20.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.meetOur .meetTeam {
+  padding: 100px;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin-left: 300px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.meetOur .kol1 {
+  position: absolute;
+  left: 200px;
+  width: 300px;
+}
+.meetOur .kol1 .imgbox {
+  overflow: hidden;
+}
+.meetOur .kol1 .imgbox img {
+  transition: 0.5s ease-in-out;
+  transform: scale(1);
+}
+.meetOur .kol1 .imgbox:hover img {
+  transform: scale(1.2);
+}
+.meetOur .kol1 h4 {
+  margin-top: 20px;
+}
+.meetOur .kol1 .ikon #ik1 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol1 .ikon #ik2 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol1 .ikon #ik3 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol1 .ikon #ik4 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol2 {
+  position: absolute;
+  left: 600px;
+  width: 300px;
+}
+.meetOur .kol2 .imgbox2 {
+  overflow: hidden;
+}
+.meetOur .kol2 .imgbox2 img {
+  transition: 0.5s ease-in-out;
+}
+.meetOur .kol2 .imgbox2:hover img {
+  transform: scale(1.2);
+}
+.meetOur .kol2 h4 {
+  margin-top: 20px;
+}
+.meetOur .kol2 .ikon2 #ik5 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol2 .ikon2 #ik6 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol2 .ikon2 #ik7 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol2 .ikon2 #ik8 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol3 {
+  position: absolute;
+  left: 600px;
+  top: 800px;
+  width: 300px;
+}
+.meetOur .kol3 .imgbox3 {
+  overflow: hidden;
+}
+.meetOur .kol3 .imgbox3 img {
+  transition: 0.5s ease-in-out;
+}
+.meetOur .kol3 .imgbox3:hover img {
+  transform: scale(1.2);
+}
+.meetOur .kol3 h4 {
+  margin-top: 20px;
+}
+.meetOur .kol3 .ikon3 #ik9 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol3 .ikon3 #ik10 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol3 .ikon3 #ik11 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol3 .ikon3 #ik12 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol4 {
+  position: absolute;
+  left: 200px;
+  top: 800px;
+  width: 300px;
+}
+.meetOur .kol4 .imgbox4 {
+  overflow: hidden;
+}
+.meetOur .kol4 .imgbox4 img {
+  transition: 0.5s ease-in-out;
+}
+.meetOur .kol4 .imgbox4:hover img {
+  transform: scale(1.2);
+}
+.meetOur .kol4 h4 {
+  margin-top: 20px;
+}
+.meetOur .kol4 .ikon4 #ik13 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol4 .ikon4 #ik14 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol4 .ikon4 #ik15 {
+  color: grey;
+  margin: 8px;
+}
+.meetOur .kol4 .ikon4 #ik16 {
+  color: grey;
+  margin: 8px;
+}
+
 h1 {
   font-family: "League Spartan", sans-serif;
   font-weight: 700;

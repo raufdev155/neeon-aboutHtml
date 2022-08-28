@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=Roboto:ital,wght@0,100;0,400;0,700;1,900&display=swap');
+
+ 
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.about-section{
+
+    width: 100%;
+    height: 100%;
+    .aboutus {
+        background-color: #F7F7F7;
+        padding: 20px 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+// .section-image{
+    // width: 100%;
+    // height: 100%;
+    .about-image{
+
+        position: relative;
+        width: 100%;
+        height: 100%;
+        .abimg1{
+            position: absolute;
+            width:400px;
+            top: 70px;
+            left: 250px;
+          
+        }
+        .abimg2{
+            position: absolute;
+            width: 300px;
+            top: 120px;
+            left: 680px;
+        }
+        .abimg3{
+            position: absolute;
+            width: 470px;
+            left: 500px;
+            top: 430px;
+            border: 30px solid white;
+           margin: -20px;
+      
+        }
+        .loq1{
+            position: absolute;
+            top: 560px;
+            left: 360px;
+        }
+        .loq2{
+            position: absolute;
+            left: 730px;
+            top: 70px;
+        }
+    }
+}
+
+// ------------------about-section end-----------
+
+  .sectionTxt{
+     font-family: Arial, Helvetica, sans-serif;
+       margin-top: 60%;
+       width: 100%;
+       height: 100%;
+       margin-left: 10%;
+      
+    .txtabout{
+        top: 80%;
+        .aboutTxt{
+
+            .sub-title{
+                font-weight: 600;
+                font-size: 20px;
+            }
+            .necnas{
+                margin-bottom: 30px;
+            }
+            
+                .btn-read{
+                    background-color: rgb(67, 106, 210) ;
+                border-radius: 5px;
+                border: none;
+                padding: 15px 40px;
+                span{
+                    color: #F7F7F7;
+                }
+                ::hover{
+                   color: red;
+                }
+                
+            }
+            
+
+            }
+        }
+    }
+
+    // --------------sectionTxt end------------
+  
+    .web{
+        background-color: rgb(33, 24, 24);
+        position: relative;
+        width: 100%;
+        height: 100%;
+    margin-top: 150px;
+        .wedevtxt{
+            
+            position: absolute;
+            width: 400px;
+            font-size: 20px;
+         
+        }
+        .wedevimg{
+            position: absolute;
+            left: 700px;
+            top: 50px;
+            margin: 15px;
+            img{
+                width: 450px;
+            }
+
+          .plyicon{
+          
+            a{
+                position: absolute;
+                left: 215px;
+                top: 70px;
+               font-size: 65px;
+               }
+              
+          }
+          
+        }
+        .skill-group {
+            
+            position: absolute;
+            top: 280px;
+            
+            margin: 0 auto;
+            width: 15%;
+            
+        }
+        // .skill-group > p {
+        //     color: white
+        // }
+        .skill-bar {
+            width: 150%;
+            background-color: white;
+        }
+        .skill-value {
+            text-align: right;
+            // padding: px;
+            color: black;
+        }
+
+        .html {
+            span{
+                color: white;
+            }
+            width: 90%;
+            margin: 12px;
+            background-color:#2A63FF;
+        }
+        .js {
+            span{
+                color: white;
+            }
+            width: 70%;
+            margin: 12px;
+            background-color:#2A63FF;
+        }
+        .python {
+            span{
+                color: white;
+            }
+            width: 55%;
+            margin: 12px;
+            background-color:#2A63FF;
+        }
+       
+    }
+    // -------------web section end--------
+
+    .meetOur{
+        position: relative;
+        width: 100vh;
+        height: 100vh;
+        margin-top: 65%;
+        background-image: url(https://radiustheme.com/demo/html/neeon/media/elements/element_20.png);
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background-attachment: fixed;
+        // background-size: 100% 100%;
+        
+        
+      .meetTeam{
+        // border: 10px solid red;
+        padding: 100px;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin-left: 300px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+            .kol1{
+               position: absolute;
+                left: 200px;
+                width: 300px;
+                // margin: 500px;
+                // border: 5px solid red;
+                
+
+        .imgbox{
+            overflow: hidden;
+            // border: 10px solid red;
+            img{
+                transition: 0.5s ease-in-out;
+                transform: scale(1);
+              
+            }
+            
+            &:hover{
+                img {
+                transform: scale(1.2);
+                }
+            }
+
+        }
+
+               
+                h4{
+                    margin-top: 20px;
+                }
+                
+            .ikon{
+                // width: 100px;
+                // height: 100px;
+                // position: absolute;
+                // left: 50px;
+                // border: 4px solid red;
+                
+
+               #ik1{
+                color: grey;
+                margin: 8px;
+               }
+               #ik2{
+                color: grey;
+                margin: 8px;
+               }
+               #ik3{
+                color: grey;
+                margin: 8px;
+               }
+               #ik4{
+                color: grey;
+                margin: 8px;
+               }
+            }
+                
+            }
+            .kol2{
+                position: absolute;
+                 left: 600px;
+                 width: 300px;
+                 // margin: 500px;
+                 // border: 5px solid red;
+                 
+ 
+         .imgbox2{
+             overflow: hidden;
+             // border: 10px solid red;
+             img{
+                 transition: 0.5s ease-in-out;
+                //  transform: scale(1);
+               
+             }
+             
+             &:hover{
+                 img {
+                 transform: scale(1.2);
+                 }
+             }
+ 
+         }
+ 
+                
+                 h4{
+                     margin-top: 20px;
+                 }
+                 
+             .ikon2{
+                 // width: 100px;
+                 // height: 100px;
+                 // position: absolute;
+                 // left: 50px;
+                 // border: 4px solid red;
+                 
+ 
+                #ik5{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik6{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik7{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik8{
+                 color: grey;
+                 margin: 8px;
+                }
+             }
+                 
+             }
+             .kol3{
+                position: absolute;
+                 left: 600px;
+                 top: 800px;
+                 width: 300px;
+                 // margin: 500px;
+                 // border: 5px solid red;
+                 
+ 
+         .imgbox3{
+             overflow: hidden;
+             // border: 10px solid red;
+             img{
+                 transition: 0.5s ease-in-out;
+                //  transform: scale(1);
+               
+             }
+             
+             &:hover{
+                 img {
+                 transform: scale(1.2);
+                 }
+             }
+ 
+         }
+ 
+                
+                 h4{
+                     margin-top: 20px;
+                 }
+                 
+             .ikon3{
+                 // width: 100px;
+                 // height: 100px;
+                 // position: absolute;
+                 // left: 50px;
+                 // border: 4px solid red;
+                 
+ 
+                #ik9{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik10{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik11{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik12{
+                 color: grey;
+                 margin: 8px;
+                }
+             }
+                 
+             }
+             .kol4{
+                position: absolute;
+                 left: 200px;
+                 top: 800px;
+                 width: 300px;
+                 // margin: 500px;
+                //  border: 5px solid red;
+                 
+ 
+         .imgbox4{
+             overflow: hidden;
+             // border: 10px solid red;
+             img{
+                 transition: 0.5s ease-in-out;
+                //  transform: scale(1);
+               
+             }
+             
+             &:hover{
+                 img {
+                 transform: scale(1.2);
+                 }
+             }
+ 
+         }
+ 
+                
+                 h4{
+                     margin-top: 20px;
+                 }
+                 
+             .ikon4{
+                 // width: 100px;
+                 // height: 100px;
+                 // position: absolute;
+                 // left: 50px;
+                 // border: 4px solid red;
+                 
+ 
+                #ik13{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik14{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik15{
+                 color: grey;
+                 margin: 8px;
+                }
+                #ik16{
+                 color: grey;
+                 margin: 8px;
+                }
+             }
+                 
+             }
+  
+   
+}
